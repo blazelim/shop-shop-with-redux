@@ -42,8 +42,8 @@ function CategoryMenu() {
   }, [categoryData, loading, dispatch]);
 
   return (
-    <div>
-      <h2>Choose a Category:</h2>
+    <div> Henlo
+      {/* <h2>Choose a Category:</h2>
       {categories.map((item) => (
         <button
           key={item._id}
@@ -53,7 +53,7 @@ function CategoryMenu() {
         >
           {item.name}
         </button>
-      ))}
+      ))} */}
     </div>
   );
 }
