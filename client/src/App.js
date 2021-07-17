@@ -17,7 +17,8 @@ import Nav from './components/Nav';
 import OrderHistory from './pages/OrderHistory';
 import Success from './pages/Success'
 
-import { StoreProvider } from './utils/GlobalState';
+// changing to redux
+// import { StoreProvider } from './utils/GlobalState';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
