@@ -2,12 +2,10 @@ import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
-<<<<<<< HEAD
-import { idbPromise } from '../../utils/helpers'
-=======
+
 import {idbPromise} from '../../utils/helpers'
 import { useDispatch, useSelector } from 'react-redux';
->>>>>>> develop
+
 
 function CategoryMenu() {
   const state = useSelector((state) => {
@@ -26,7 +24,7 @@ function CategoryMenu() {
       type: UPDATE_CURRENT_CATEGORY,
       currentCategory: id
     })
-  }
+  } 
 
   useEffect(() => {
     // if categoryData exists or has changed from the response of useQuery, then run dispatch(    )
