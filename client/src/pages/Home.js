@@ -1,7 +1,9 @@
 import React from "react";
-import ProductList from "../components/ProductList/index.js";
-import CategoryMenu from "../components/CategoryMenu/index.js";
-import Cart from "../components/Cart/index.js";
+
+import ProductList from "../components/ProductList";
+import CategoryMenu from "../components/CategoryMenu";
+import Cart from "../components/Cart";
+
 
 const Home = () => {
 
